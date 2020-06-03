@@ -30,7 +30,8 @@ const App = () => {
     {
       latitude: 37.492762,
       longitude: 126.919852,
-      pinColor: 'yellow',
+      pinColor: 'image',
+      markerImage: 'park',
       title: '보라매공원',
     },
     {
