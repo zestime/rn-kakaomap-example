@@ -62,7 +62,7 @@ MapViewNative를 감싸고 있으며, GeoLocation을 이용하여, 현재 위치
 | useCurrentLocation             | boolean    | false | GeoLocation을 사용하지 않는 경우, 특정 위치 표시시 사용|
 | Markers             | Array    |         | 지도안에 같이 표현되어야 하는 markers |
 
-예시는 다음의 App.tsx를 참고 하시면 됩니다.
+Marker 예시는 다음의 App.tsx를 참고 하시면 됩니다.
 
 ```javascript
 // App.tsx
@@ -93,7 +93,7 @@ const markers = [
 
 ```
 
-pinColor의 경우, 누락시 blue로 표시되게 되어있습니다.
+위의 Marker의 경우, https://github.com/asata/react-native-daummap#markers 에서 더욱 자세한 정보를 보실 수 있습니다.
 
 # Run
 
