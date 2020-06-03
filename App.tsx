@@ -16,7 +16,7 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import MapView from './MapView';
+import MapView from './src/components/MapView';
 
 declare const global: {HermesInternal: null | {}};
 

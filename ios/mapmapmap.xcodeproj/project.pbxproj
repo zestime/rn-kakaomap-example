@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* mapmapmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mapmapmapTests.m */; };
+		10DC57653B95F47DB882159C /* libPods-mapmapmap-mapmapmapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87DA1F8EF6C8D77FB3A0CA3 /* libPods-mapmapmap-mapmapmapTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,6 +17,46 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* mapmapmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mapmapmapTests.m */; };
+		53926D472487D9D5001325EF /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D222487D9D5001325EF /* map_pinup_custom@3x.png */; };
+		53926D482487D9D5001325EF /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D232487D9D5001325EF /* map_pin_custom.png */; };
+		53926D492487D9D5001325EF /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D242487D9D5001325EF /* shadow_balloon.png */; };
+		53926D4A2487D9D5001325EF /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D252487D9D5001325EF /* map_pinup.png */; };
+		53926D4B2487D9D5001325EF /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D262487D9D5001325EF /* detail_button.png */; };
+		53926D4C2487D9D5001325EF /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D272487D9D5001325EF /* map_pin_custom@3x.png */; };
+		53926D4D2487D9D5001325EF /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D282487D9D5001325EF /* map_pinup@3x.png */; };
+		53926D4E2487D9D5001325EF /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D292487D9D5001325EF /* map_pin_shadow@3x.png */; };
+		53926D4F2487D9D5001325EF /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D2A2487D9D5001325EF /* copyright.png */; };
+		53926D502487D9D5001325EF /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D2B2487D9D5001325EF /* th_line.png */; };
+		53926D512487D9D5001325EF /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D2C2487D9D5001325EF /* map_pin_red@3x.png */; };
+		53926D522487D9D5001325EF /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D2D2487D9D5001325EF /* daum_copyright.png */; };
+		53926D532487D9D5001325EF /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D2E2487D9D5001325EF /* map_pin@3x.png */; };
+		53926D542487D9D5001325EF /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D2F2487D9D5001325EF /* map_present_tracking.png */; };
+		53926D552487D9D5001325EF /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D302487D9D5001325EF /* map_pin_red.png */; };
+		53926D562487D9D5001325EF /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D3A2487D9D5001325EF /* info_box.png */; };
+		53926D572487D9D5001325EF /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D3B2487D9D5001325EF /* point_sprite.png */; };
+		53926D582487D9D5001325EF /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D3C2487D9D5001325EF /* map_pinup_custom.png */; };
+		53926D592487D9D5001325EF /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D3D2487D9D5001325EF /* info_box_tail.png */; };
+		53926D5A2487D9D5001325EF /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D3E2487D9D5001325EF /* noimage256.png */; };
+		53926D5B2487D9D5001325EF /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D3F2487D9D5001325EF /* map_present_direction.png */; };
+		53926D5C2487D9D5001325EF /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D402487D9D5001325EF /* map_pin.png */; };
+		53926D5D2487D9D5001325EF /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D412487D9D5001325EF /* map_present.png */; };
+		53926D5E2487D9D5001325EF /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D422487D9D5001325EF /* noimage.png */; };
+		53926D5F2487D9D5001325EF /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D432487D9D5001325EF /* map_present_background_update.png */; };
+		53926D602487D9D5001325EF /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D442487D9D5001325EF /* daum_th_line.png */; };
+		53926D612487D9D5001325EF /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 53926D452487D9D5001325EF /* map_pin_shadow.png */; };
+		53926D622487D9D5001325EF /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D462487D9D5001325EF /* DaumMap.framework */; };
+		53926D642487DA03001325EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D632487DA03001325EF /* OpenGLES.framework */; };
+		53926D662487DA1A001325EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D652487DA1A001325EF /* CoreLocation.framework */; };
+		53926D682487DA22001325EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D672487DA22001325EF /* QuartzCore.framework */; };
+		53926D6A2487DA34001325EF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D692487DA34001325EF /* libc++.tbd */; };
+		53926D6C2487DA3D001325EF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D6B2487DA3D001325EF /* libxml2.tbd */; };
+		53926D6E2487DA45001325EF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D6D2487DA45001325EF /* libsqlite3.tbd */; };
+		53926D702487DA53001325EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53926D6F2487DA53001325EF /* SystemConfiguration.framework */; };
+		53926D732487DB45001325EF /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53926D722487DB45001325EF /* MapView.m */; };
+		53926D772487DC84001325EF /* MapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53926D762487DC84001325EF /* MapViewManager.m */; };
+		6A1D771C00C9EE5C2C8B6C87 /* libPods-mapmapmap-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D51AB58864A9F0863664A956 /* libPods-mapmapmap-tvOS.a */; };
+		7AB2BFF8E7DC22A9EBDD46EA /* libPods-mapmapmap-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8E7DA3E7E7722C0E1B261A /* libPods-mapmapmap-tvOSTests.a */; };
+		9D4D157424C6A3C619D2D175 /* libPods-mapmapmap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EE0E090000B968D226DEF3 /* libPods-mapmapmap.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +81,8 @@
 		00E356EE1AD99517003FC87E /* mapmapmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapmapmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* mapmapmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapmapmapTests.m; sourceTree = "<group>"; };
+		0BA2194473848FEB7CA60710 /* Pods-mapmapmap-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-mapmapmap-tvOSTests/Pods-mapmapmap-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CA5E77909F7930D75076188 /* Pods-mapmapmap-mapmapmapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap-mapmapmapTests.debug.xcconfig"; path = "Target Support Files/Pods-mapmapmap-mapmapmapTests/Pods-mapmapmap-mapmapmapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* mapmapmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapmapmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mapmapmap/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mapmapmap/AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +90,67 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mapmapmap/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mapmapmap/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mapmapmap/main.m; sourceTree = "<group>"; };
+		2C085260450FA771F6144447 /* Pods-mapmapmap-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap-tvOS.release.xcconfig"; path = "Target Support Files/Pods-mapmapmap-tvOS/Pods-mapmapmap-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* mapmapmap-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapmapmap-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* mapmapmap-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapmapmap-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A954714BBEED0C3AD5E92A /* Pods-mapmapmap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap.release.xcconfig"; path = "Target Support Files/Pods-mapmapmap/Pods-mapmapmap.release.xcconfig"; sourceTree = "<group>"; };
+		53926D222487D9D5001325EF /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
+		53926D232487D9D5001325EF /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		53926D242487D9D5001325EF /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		53926D252487D9D5001325EF /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		53926D262487D9D5001325EF /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		53926D272487D9D5001325EF /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
+		53926D282487D9D5001325EF /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
+		53926D292487D9D5001325EF /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
+		53926D2A2487D9D5001325EF /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		53926D2B2487D9D5001325EF /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
+		53926D2C2487D9D5001325EF /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
+		53926D2D2487D9D5001325EF /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
+		53926D2E2487D9D5001325EF /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		53926D2F2487D9D5001325EF /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		53926D302487D9D5001325EF /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		53926D322487D9D5001325EF /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
+		53926D332487D9D5001325EF /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
+		53926D342487D9D5001325EF /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
+		53926D352487D9D5001325EF /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
+		53926D362487D9D5001325EF /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
+		53926D372487D9D5001325EF /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
+		53926D382487D9D5001325EF /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
+		53926D392487D9D5001325EF /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
+		53926D3A2487D9D5001325EF /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		53926D3B2487D9D5001325EF /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		53926D3C2487D9D5001325EF /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		53926D3D2487D9D5001325EF /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
+		53926D3E2487D9D5001325EF /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		53926D3F2487D9D5001325EF /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		53926D402487D9D5001325EF /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		53926D412487D9D5001325EF /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		53926D422487D9D5001325EF /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		53926D432487D9D5001325EF /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		53926D442487D9D5001325EF /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
+		53926D452487D9D5001325EF /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		53926D462487D9D5001325EF /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		53926D632487DA03001325EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		53926D652487DA1A001325EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		53926D672487DA22001325EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		53926D692487DA34001325EF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		53926D6B2487DA3D001325EF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		53926D6D2487DA45001325EF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		53926D6F2487DA53001325EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53926D722487DB45001325EF /* MapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MapView.m; path = mapmapmap/MapView.m; sourceTree = "<group>"; };
+		53926D742487DB71001325EF /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MapView.h; path = mapmapmap/MapView.h; sourceTree = "<group>"; };
+		53926D752487DBFA001325EF /* MapViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MapViewManager.h; path = mapmapmap/MapViewManager.h; sourceTree = "<group>"; };
+		53926D762487DC84001325EF /* MapViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MapViewManager.m; path = mapmapmap/MapViewManager.m; sourceTree = "<group>"; };
+		595B8288525795007BAC35A9 /* Pods-mapmapmap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap.debug.xcconfig"; path = "Target Support Files/Pods-mapmapmap/Pods-mapmapmap.debug.xcconfig"; sourceTree = "<group>"; };
+		A3C05A838483B67BFF2A33B5 /* Pods-mapmapmap-mapmapmapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap-mapmapmapTests.release.xcconfig"; path = "Target Support Files/Pods-mapmapmap-mapmapmapTests/Pods-mapmapmap-mapmapmapTests.release.xcconfig"; sourceTree = "<group>"; };
+		B138FC3B54E77A523B321766 /* Pods-mapmapmap-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-mapmapmap-tvOS/Pods-mapmapmap-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C87DA1F8EF6C8D77FB3A0CA3 /* libPods-mapmapmap-mapmapmapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapmapmap-mapmapmapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB163C12FCF5D4FA8943D91 /* Pods-mapmapmap-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmapmap-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-mapmapmap-tvOSTests/Pods-mapmapmap-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D51AB58864A9F0863664A956 /* libPods-mapmapmap-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapmapmap-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EE0E090000B968D226DEF3 /* libPods-mapmapmap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapmapmap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE8E7DA3E7E7722C0E1B261A /* libPods-mapmapmap-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapmapmap-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DC57653B95F47DB882159C /* libPods-mapmapmap-mapmapmapTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +166,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53926D702487DA53001325EF /* SystemConfiguration.framework in Frameworks */,
+				53926D6E2487DA45001325EF /* libsqlite3.tbd in Frameworks */,
+				53926D6C2487DA3D001325EF /* libxml2.tbd in Frameworks */,
+				53926D6A2487DA34001325EF /* libc++.tbd in Frameworks */,
+				53926D682487DA22001325EF /* QuartzCore.framework in Frameworks */,
+				53926D662487DA1A001325EF /* CoreLocation.framework in Frameworks */,
+				53926D642487DA03001325EF /* OpenGLES.framework in Frameworks */,
+				53926D622487D9D5001325EF /* DaumMap.framework in Frameworks */,
+				9D4D157424C6A3C619D2D175 /* libPods-mapmapmap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1D771C00C9EE5C2C8B6C87 /* libPods-mapmapmap-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB2BFF8E7DC22A9EBDD46EA /* libPods-mapmapmap-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +220,10 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				53926D742487DB71001325EF /* MapView.h */,
+				53926D722487DB45001325EF /* MapView.m */,
+				53926D752487DBFA001325EF /* MapViewManager.h */,
+				53926D762487DC84001325EF /* MapViewManager.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -119,10 +235,81 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53926D6F2487DA53001325EF /* SystemConfiguration.framework */,
+				53926D6D2487DA45001325EF /* libsqlite3.tbd */,
+				53926D6B2487DA3D001325EF /* libxml2.tbd */,
+				53926D692487DA34001325EF /* libc++.tbd */,
+				53926D672487DA22001325EF /* QuartzCore.framework */,
+				53926D652487DA1A001325EF /* CoreLocation.framework */,
+				53926D632487DA03001325EF /* OpenGLES.framework */,
+				53926D202487D9D5001325EF /* DaumMap.embeddedframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				E0EE0E090000B968D226DEF3 /* libPods-mapmapmap.a */,
+				C87DA1F8EF6C8D77FB3A0CA3 /* libPods-mapmapmap-mapmapmapTests.a */,
+				D51AB58864A9F0863664A956 /* libPods-mapmapmap-tvOS.a */,
+				EE8E7DA3E7E7722C0E1B261A /* libPods-mapmapmap-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53926D202487D9D5001325EF /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				53926D212487D9D5001325EF /* Resources */,
+				53926D462487D9D5001325EF /* DaumMap.framework */,
+			);
+			path = DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		53926D212487D9D5001325EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53926D222487D9D5001325EF /* map_pinup_custom@3x.png */,
+				53926D232487D9D5001325EF /* map_pin_custom.png */,
+				53926D242487D9D5001325EF /* shadow_balloon.png */,
+				53926D252487D9D5001325EF /* map_pinup.png */,
+				53926D262487D9D5001325EF /* detail_button.png */,
+				53926D272487D9D5001325EF /* map_pin_custom@3x.png */,
+				53926D282487D9D5001325EF /* map_pinup@3x.png */,
+				53926D292487D9D5001325EF /* map_pin_shadow@3x.png */,
+				53926D2A2487D9D5001325EF /* copyright.png */,
+				53926D2B2487D9D5001325EF /* th_line.png */,
+				53926D2C2487D9D5001325EF /* map_pin_red@3x.png */,
+				53926D2D2487D9D5001325EF /* daum_copyright.png */,
+				53926D2E2487D9D5001325EF /* map_pin@3x.png */,
+				53926D2F2487D9D5001325EF /* map_present_tracking.png */,
+				53926D302487D9D5001325EF /* map_pin_red.png */,
+				53926D312487D9D5001325EF /* Headers */,
+				53926D3A2487D9D5001325EF /* info_box.png */,
+				53926D3B2487D9D5001325EF /* point_sprite.png */,
+				53926D3C2487D9D5001325EF /* map_pinup_custom.png */,
+				53926D3D2487D9D5001325EF /* info_box_tail.png */,
+				53926D3E2487D9D5001325EF /* noimage256.png */,
+				53926D3F2487D9D5001325EF /* map_present_direction.png */,
+				53926D402487D9D5001325EF /* map_pin.png */,
+				53926D412487D9D5001325EF /* map_present.png */,
+				53926D422487D9D5001325EF /* noimage.png */,
+				53926D432487D9D5001325EF /* map_present_background_update.png */,
+				53926D442487D9D5001325EF /* daum_th_line.png */,
+				53926D452487D9D5001325EF /* map_pin_shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53926D312487D9D5001325EF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				53926D322487D9D5001325EF /* MTMapPOIItem.h */,
+				53926D332487D9D5001325EF /* MTMapCameraUpdate.h */,
+				53926D342487D9D5001325EF /* MTMapReverseGeoCoder.h */,
+				53926D352487D9D5001325EF /* MTMapPolyline.h */,
+				53926D362487D9D5001325EF /* MTMapLocationMarkerItem.h */,
+				53926D372487D9D5001325EF /* MTMapView.h */,
+				53926D382487D9D5001325EF /* MTMapGeometry.h */,
+				53926D392487D9D5001325EF /* MTMapCircle.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -140,6 +327,7 @@
 				00E356EF1AD99517003FC87E /* mapmapmapTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CD86DAE6A03258EE80B03FCB /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -157,6 +345,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CD86DAE6A03258EE80B03FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595B8288525795007BAC35A9 /* Pods-mapmapmap.debug.xcconfig */,
+				30A954714BBEED0C3AD5E92A /* Pods-mapmapmap.release.xcconfig */,
+				0CA5E77909F7930D75076188 /* Pods-mapmapmap-mapmapmapTests.debug.xcconfig */,
+				A3C05A838483B67BFF2A33B5 /* Pods-mapmapmap-mapmapmapTests.release.xcconfig */,
+				B138FC3B54E77A523B321766 /* Pods-mapmapmap-tvOS.debug.xcconfig */,
+				2C085260450FA771F6144447 /* Pods-mapmapmap-tvOS.release.xcconfig */,
+				0BA2194473848FEB7CA60710 /* Pods-mapmapmap-tvOSTests.debug.xcconfig */,
+				CEB163C12FCF5D4FA8943D91 /* Pods-mapmapmap-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +367,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mapmapmapTests" */;
 			buildPhases = (
+				1BBFB550706F5B9B5A080213 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -182,6 +386,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mapmapmap" */;
 			buildPhases = (
+				E262E47285FF4648270634AD /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -201,6 +406,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mapmapmap-tvOS" */;
 			buildPhases = (
+				F5FB785AB00545C935277A86 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -220,6 +426,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mapmapmap-tvOSTests" */;
 			buildPhases = (
+				217D17CFF34768244213D499 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -244,9 +451,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 649LN63663;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 649LN63663;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -293,8 +502,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53926D592487D9D5001325EF /* info_box_tail.png in Resources */,
+				53926D4E2487D9D5001325EF /* map_pin_shadow@3x.png in Resources */,
+				53926D5C2487D9D5001325EF /* map_pin.png in Resources */,
+				53926D552487D9D5001325EF /* map_pin_red.png in Resources */,
+				53926D4D2487D9D5001325EF /* map_pinup@3x.png in Resources */,
+				53926D572487D9D5001325EF /* point_sprite.png in Resources */,
+				53926D532487D9D5001325EF /* map_pin@3x.png in Resources */,
+				53926D5A2487D9D5001325EF /* noimage256.png in Resources */,
+				53926D5D2487D9D5001325EF /* map_present.png in Resources */,
+				53926D522487D9D5001325EF /* daum_copyright.png in Resources */,
+				53926D4F2487D9D5001325EF /* copyright.png in Resources */,
+				53926D492487D9D5001325EF /* shadow_balloon.png in Resources */,
+				53926D4C2487D9D5001325EF /* map_pin_custom@3x.png in Resources */,
+				53926D502487D9D5001325EF /* th_line.png in Resources */,
+				53926D582487D9D5001325EF /* map_pinup_custom.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				53926D602487D9D5001325EF /* daum_th_line.png in Resources */,
+				53926D472487D9D5001325EF /* map_pinup_custom@3x.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				53926D542487D9D5001325EF /* map_present_tracking.png in Resources */,
+				53926D612487D9D5001325EF /* map_pin_shadow.png in Resources */,
+				53926D5B2487D9D5001325EF /* map_present_direction.png in Resources */,
+				53926D5F2487D9D5001325EF /* map_present_background_update.png in Resources */,
+				53926D4B2487D9D5001325EF /* detail_button.png in Resources */,
+				53926D512487D9D5001325EF /* map_pin_red@3x.png in Resources */,
+				53926D5E2487D9D5001325EF /* noimage.png in Resources */,
+				53926D562487D9D5001325EF /* info_box.png in Resources */,
+				53926D482487D9D5001325EF /* map_pin_custom.png in Resources */,
+				53926D4A2487D9D5001325EF /* map_pinup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +566,50 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		1BBFB550706F5B9B5A080213 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapmapmap-mapmapmapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		217D17CFF34768244213D499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapmapmap-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +623,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		E262E47285FF4648270634AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapmapmap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5FB785AB00545C935277A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapmapmap-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -398,7 +722,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				53926D732487DB45001325EF /* MapView.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				53926D772487DC84001325EF /* MapViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,8 +775,10 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA5E77909F7930D75076188 /* Pods-mapmapmap-mapmapmapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 649LN63663;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -471,9 +799,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C05A838483B67BFF2A33B5 /* Pods-mapmapmap-mapmapmapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 649LN63663;
 				INFOPLIST_FILE = mapmapmapTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,11 +820,18 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595B8288525795007BAC35A9 /* Pods-mapmapmap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649LN63663;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
@@ -516,10 +853,17 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A954714BBEED0C3AD5E92A /* Pods-mapmapmap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649LN63663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				INFOPLIST_FILE = mapmapmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -536,6 +880,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B138FC3B54E77A523B321766 /* Pods-mapmapmap-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -563,6 +908,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C085260450FA771F6144447 /* Pods-mapmapmap-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -590,6 +936,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA2194473848FEB7CA60710 /* Pods-mapmapmap-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -616,6 +963,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB163C12FCF5D4FA8943D91 /* Pods-mapmapmap-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
