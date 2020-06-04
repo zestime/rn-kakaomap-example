@@ -8,6 +8,9 @@ https://github.com/asata/react-native-daummap 의 소스를 활용하였습니�
 
 ## Kakao SDK 설정
 
+### Android
+
+Native Key를 사용하기 위해서는, 플랫폼에 안드로이드를 추가하셔야 합니다.
 bundle ID 나 market URL은 중요하지 않습니다.
 Key hash가 가장 중요합니다.
 key tool을 통해서 획득할 수 있으나, 저의 경우에는 잘 작동하지 않았습니다.
@@ -33,6 +36,17 @@ private void getAppKeyHash() {
 ```
 
 library 관련 사항은 tutorial을 참고 부탁드립니다.
+
+### iOS
+
+iOS의 경우에는 key hash가 따로 없고, bundle id를 맞추는 것이 중요합니다. 예제에서 사용되는 번들 ID는 
+
+```
+org.reactjs.native.example.mapmapmap
+```
+
+입니다.
+
 
 ## app
 
@@ -101,12 +115,29 @@ const markers = [
 
 * 빌드 - 기본적으로 React Native 빌드 환경
 * install NPM packages
+
+
+## Android
+
 * KakaoMap Native Key - AndroidManifest.xml에 추가하여야 합니다. 
 
 그리고 대망의
 ```
 $ npm run android
 ```
+
+## iOS
+
+info.plist에 native key를 기입해야 합니다. 예제에서는 
+
+```
+<key>KAKAO_APP_KEY</key>
+<string>*****************************</string>
+```
+
+으로 처리되어 있습니다. 발급받은 키를 넣어주셔야 정상적으로 맵이 그려지게 됩니다.
+
+
 
 # Refernece
 
